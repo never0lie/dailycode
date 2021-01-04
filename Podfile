@@ -1,11 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
+install! 'cocoapods', :disable_input_output_paths => true
 #inhibit_all_warnings!
 target 'leetcoder' do
   pod 'Alamofire', '4.0' 
   pod 'SnapKit'
-#  pod 'RAMAnimatedTabBarController'
-#  pod 'SPPermission'
   pod 'TagListView', '~> 1.0'
   pod 'Bugly'
   pod 'Cosmos', '~> 19.0'
@@ -14,11 +13,7 @@ target 'leetcoder' do
   # Uncomment the next line when you want all Pods as static framework
   # use_modular_headers!
   pod 'Kingfisher'
-#  pod 'SDWebImage', :modular_headers => true
-#  pod 'SwiftyBeaver'
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
-#  pod 'EasyTipView', '~> 2.0.4'
-#  pod 'ESPullToRefresh'
   pod 'SDCAlertView'
   pod 'SSZipArchive'
   pod 'Highlightr'
@@ -27,5 +22,4 @@ target 'leetcoder' do
   pod 'Toolbar'
   pod 'IQKeyboardManagerSwift'
   pod 'Down'
-#  pod 'Firebase/Analytics'
 end
