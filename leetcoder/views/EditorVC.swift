@@ -393,8 +393,8 @@ class EditorViewwController: BaseViewController, WKNavigationDelegate, UITextVie
         endLoading()
         var attributes = EKAttributes.bottomFloat
         attributes.displayDuration = .infinity
-        attributes.screenBackground = .color(color: UIColor(white: 100.0/255.0, alpha: 0.3))
-        attributes.entryBackground = .color(color: UIColor.init(white: 0, alpha: 0))
+        attributes.screenBackground = .color(color: EKColor(UIColor(white: 100.0/255.0, alpha: 0.3)))
+        attributes.entryBackground = .color(color: EKColor(UIColor.init(white: 0, alpha: 0)))
         attributes.screenInteraction = .dismiss
         attributes.entryInteraction = .absorbTouches
         attributes.scroll = .edgeCrossingDisabled(swipeable: true)

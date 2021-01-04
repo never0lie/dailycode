@@ -95,7 +95,7 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate, UINavig
         attributes.hapticFeedbackType = type
         attributes.displayDuration = .infinity
         attributes.popBehavior = .animated(animation: .translation)
-        attributes.entryBackground = .color(color: bgColor)
+        attributes.entryBackground = .color(color: EKColor(bgColor))
         attributes.statusBar = .light
 
         let style = EKProperty.LabelStyle(

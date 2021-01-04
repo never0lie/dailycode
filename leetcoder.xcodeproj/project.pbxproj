@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		07F65B0C2369FDDF00FC11C8 /* SolutionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F65B0B2369FDDF00FC11C8 /* SolutionsViewController.swift */; };
 		07F65B0E236A035C00FC11C8 /* SolutionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F65B0D236A035C00FC11C8 /* SolutionDetailViewController.swift */; };
-		3E15F0C45DBAA397E2043D1D /* libPods-leetcoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F8D1AD04CF6D66BE18C204 /* libPods-leetcoder.a */; };
 		480F5C87235193DC006AC9E6 /* file.zip in Resources */ = {isa = PBXBuildFile; fileRef = 480F5C86235193DC006AC9E6 /* file.zip */; };
 		48101EE722E700A30051108B /* tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48101EE622E700A30051108B /* tool.swift */; };
 		48101EF222E713450051108B /* ProblemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48101EF122E713450051108B /* ProblemCell.swift */; };
@@ -51,12 +50,13 @@
 		48F0A58922F010B00002E5CB /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0A58822F010B00002E5CB /* BaseVC.swift */; };
 		48F0A58B22F019810002E5CB /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F0A58A22F019810002E5CB /* ResultVC.swift */; };
 		48F11185230089A60090AC88 /* http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F11184230089A60090AC88 /* http.swift */; };
+		6CA49F318102ABBA316174FD /* libPods-leetcoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2736E2BBB2B693D939E1EC49 /* libPods-leetcoder.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07F65B0B2369FDDF00FC11C8 /* SolutionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionsViewController.swift; sourceTree = "<group>"; };
 		07F65B0D236A035C00FC11C8 /* SolutionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionDetailViewController.swift; sourceTree = "<group>"; };
-		44F337E706B2509C534847F4 /* Pods-leetcoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetcoder.debug.xcconfig"; path = "Target Support Files/Pods-leetcoder/Pods-leetcoder.debug.xcconfig"; sourceTree = "<group>"; };
+		2736E2BBB2B693D939E1EC49 /* libPods-leetcoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leetcoder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		480F5C86235193DC006AC9E6 /* file.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = file.zip; sourceTree = "<group>"; };
 		48101EE622E700A30051108B /* tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tool.swift; sourceTree = "<group>"; };
 		48101EF122E713450051108B /* ProblemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemCell.swift; sourceTree = "<group>"; };
@@ -104,8 +104,8 @@
 		48F0A58C22F03B3E0002E5CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		48F0A58D22F03B3E0002E5CB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		48F11184230089A60090AC88 /* http.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = http.swift; sourceTree = "<group>"; };
-		5AFBEE2967A38CDC58192C49 /* Pods-leetcoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetcoder.release.xcconfig"; path = "Target Support Files/Pods-leetcoder/Pods-leetcoder.release.xcconfig"; sourceTree = "<group>"; };
-		E6F8D1AD04CF6D66BE18C204 /* libPods-leetcoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leetcoder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E22484D619322DB20D4483D /* Pods-leetcoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetcoder.release.xcconfig"; path = "Target Support Files/Pods-leetcoder/Pods-leetcoder.release.xcconfig"; sourceTree = "<group>"; };
+		5EEEC3C778278AA830070556 /* Pods-leetcoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leetcoder.debug.xcconfig"; path = "Target Support Files/Pods-leetcoder/Pods-leetcoder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E15F0C45DBAA397E2043D1D /* libPods-leetcoder.a in Frameworks */,
+				6CA49F318102ABBA316174FD /* libPods-leetcoder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 		05932A73463E8B0A43D0928F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				44F337E706B2509C534847F4 /* Pods-leetcoder.debug.xcconfig */,
-				5AFBEE2967A38CDC58192C49 /* Pods-leetcoder.release.xcconfig */,
+				5EEEC3C778278AA830070556 /* Pods-leetcoder.debug.xcconfig */,
+				5E22484D619322DB20D4483D /* Pods-leetcoder.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -133,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				48BABB4122EDF64E00487CD6 /* JavaScriptCore.framework */,
-				E6F8D1AD04CF6D66BE18C204 /* libPods-leetcoder.a */,
+				2736E2BBB2B693D939E1EC49 /* libPods-leetcoder.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,12 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48B1437922E5F3DD002237DC /* Build configuration list for PBXNativeTarget "leetcoder" */;
 			buildPhases = (
-				3208F1A5113664DE6CA8CF61 /* [CP] Check Pods Manifest.lock */,
+				4A2A640D00D30ADBE3C8FAE3 /* [CP] Check Pods Manifest.lock */,
 				48B1436322E5F3DC002237DC /* Sources */,
 				48B1436422E5F3DC002237DC /* Frameworks */,
 				48B1436522E5F3DC002237DC /* Resources */,
-				7DB9401F754689B4614510FF /* [CP] Copy Pods Resources */,
 				48FF768023046083001281B3 /* build time plus */,
+				81E4244022520903EF2340AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +306,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3208F1A5113664DE6CA8CF61 /* [CP] Check Pods Manifest.lock */ = {
+		48FF768023046083001281B3 /* build time plus */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "build time plus";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Typ#!/bin/bash\nbuildNumber=$(date +%Y%m%d%H%M%S)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n";
+		};
+		4A2A640D00D30ADBE3C8FAE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,25 +346,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		48FF768023046083001281B3 /* build time plus */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "build time plus";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Typ#!/bin/bash\nbuildNumber=$(date +%Y%m%d%H%M%S)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n";
-		};
-		7DB9401F754689B4614510FF /* [CP] Copy Pods Resources */ = {
+		81E4244022520903EF2340AE /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -570,12 +570,12 @@
 		};
 		48B1437A22E5F3DD002237DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44F337E706B2509C534847F4 /* Pods-leetcoder.debug.xcconfig */;
+			baseConfigurationReference = 5EEEC3C778278AA830070556 /* Pods-leetcoder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U6S7593544;
+				DEVELOPMENT_TEAM = 2UG89GXLRG;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = leetcoder/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -584,7 +584,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericjj.coder.leetcoder;
+				PRODUCT_BUNDLE_IDENTIFIER = one.never0lie.leetcoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -594,12 +594,12 @@
 		};
 		48B1437B22E5F3DD002237DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AFBEE2967A38CDC58192C49 /* Pods-leetcoder.release.xcconfig */;
+			baseConfigurationReference = 5E22484D619322DB20D4483D /* Pods-leetcoder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U6S7593544;
+				DEVELOPMENT_TEAM = 2UG89GXLRG;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = leetcoder/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -608,7 +608,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericjj.coder.leetcoder;
+				PRODUCT_BUNDLE_IDENTIFIER = one.never0lie.leetcoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
